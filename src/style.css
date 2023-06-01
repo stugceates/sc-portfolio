@@ -5,10 +5,7 @@
     --third-color: #3ab1c8;
   }
   
-  body {
-    margin: 100px auto;
-  }
-  
+
   h1,
   h2,
   h3 {
@@ -44,9 +41,18 @@
     line-height: 1.5;
     text-align: left;
   }
-  .intro {
+  .hero {
     margin-bottom: 100px;
-  
+    background-image: url('../images/coding.png');
+    color: white;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-content{
+    width: 640px;
   }
   .info .photo{
     margin-top: 20px;
