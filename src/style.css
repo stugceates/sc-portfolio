@@ -15,12 +15,17 @@
   
   h1 {
     font-size: 96px;
-    margin-top: 10px;
+    margin-top:0px;
     font-family: 'Playfair Display', serif;
-    
     
   }
   
+  h1.custom{
+    margin-top: 100px;
+    font-size: 72px;
+    text-align: left;
+  }
+
   h2 {
     font-size: 48px;
     font-family: 'Poppins', sans-serif;
@@ -29,10 +34,14 @@
   
   h3 {
     font-size: 24px;
+    margin-top: 10px;
     opacity: 0.7;
     font-family: 'Poppins', sans-serif;
   }
-  
+  h3.custom{
+    text-align: left;
+    opacity: 1;
+  }
   p {
     font-size: 18px;
     padding: 20px;
@@ -40,6 +49,10 @@
     font-size: 18px;
     line-height: 1.5;
     text-align: left;
+  }
+  p.custom{
+    padding: 0;
+    margin-top: 20px;
   }
   .hero {
     margin-bottom: 100px;
@@ -115,8 +128,20 @@
   .email-link:hover {
     text-decoration: underline;
   }
+  .container-wrap{
+    padding: 100px 0px;
+  }
+  .box{
+    text-align: center;
+  }
+
+  .box img{
+    width:80%; /* you can use % */
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
   
-  
+  }
   
   @media (max-width: 576px) {
     h1 {
@@ -132,6 +157,16 @@
     p {
       text-align: center;
     }
-  
+    
+    h1.custom{
+      font-size: 48px;
+      text-align: center;
+    }
+    h3.custom{
+      text-align: center;
+    }
+    .box{
+      text-align: center;
+    }
   }
   
