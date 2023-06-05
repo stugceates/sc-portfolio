@@ -8,7 +8,8 @@
 
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
     text-align: center;
     margin: 0;
   }
@@ -41,6 +42,14 @@
   h3.custom{
     text-align: left;
     opacity: 1;
+  }
+  .project-content h3{
+    font-size: 14px;
+  }
+  h4 {
+    margin-top: 20px;
+    font-weight: 600;
+    text-decoration: underline;
   }
   p {
     font-size: 18px;
@@ -129,7 +138,7 @@
     text-decoration: underline;
   }
   .container-wrap{
-    padding: 100px 0px;
+    padding-top: 100px;
   }
   .box{
     text-align: center;
@@ -142,7 +151,9 @@
     border-radius: 10px;
   
   }
-  
+  .project-content{
+    margin-top: 50px;
+  }
   @media (max-width: 576px) {
     h1 {
       font-size: 48px;
