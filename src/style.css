@@ -199,6 +199,18 @@
   .social-links{
     margin-bottom: 20px;
   }
+
+  .code-skills{
+    text-align: center;
+    margin: 40px 0;
+  }
+  .skill-icons img {
+    width: 8%;
+  }
+  .code-skills h4{
+    text-decoration: none;
+    margin: 40px;
+  }
   footer .social-links a {
     margin: 0 20px;
     color: var(--primary-color);
@@ -230,17 +242,22 @@
   
     p {
       text-align: center;
+      font-size: 14px;
     }
     
     h1.custom{
       font-size: 48px;
       text-align: center;
+      margin-top: 10px;
     }
     h3.custom{
       text-align: center;
     }
     .box{
       text-align: center;
+    }
+    .skill-icons img{
+      width: 15%;
     }
   }
   
